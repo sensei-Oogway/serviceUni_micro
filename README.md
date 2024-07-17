@@ -10,7 +10,7 @@ This Django application serves as a comprehensive platform for university studen
 
 ## Technologies and Architecture
 
-- **Microservice Architecture:** Utilizes a microservice-based approach for modularity and scalability, its not a perfectly microservice-based architecture, but tries to mimic one, by running each Django app in a different server.
+- **Microservice Architecture:** Utilizes a microservice-based approach for modularity and scalability, its not a perfectly microservice-based architecture, but tries to mimic one, by running each Django app in a different server, making it more scalable. 
 - **Nginx as API Gateway:** Nginx is configured as an API gateway to route requests to appropriate apps.
 - **Django:** Backend framework for developing robust web applications.
 - **PostgreSQL:** Relational database management system used for data storage.
